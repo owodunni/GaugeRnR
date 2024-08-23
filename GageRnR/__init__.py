@@ -10,6 +10,7 @@ from .dataLoader import DataLoader
 from .statistics import Statistics, Result, Component
 from .normality import Normality
 from .linearity import Linearity
+from .parser import reformat_dataframe_to_3d
 
 __all__ = ['GageRnR',
            'Component',
